@@ -1,0 +1,9 @@
+[Nemo Action]
+Name=Apply Custom _Icon
+Comment=Apply a custom icon to %F based on its images content
+Exec=<apply_custom_icon.sh %F>
+Icon-Name=image-x-generic-symbolic
+Selection=any
+Extensions=dir;
+Quote=single
+Dependencies=xdotool;zenity;yad;convert;montage;rsvg-convert;
