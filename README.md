@@ -10,15 +10,14 @@ Nemo action to apply a custom composed icon based on images contained in the sel
 </p>
 
 ## INSTALLATION
-The script requires: xdotool zenity yad convert montage rsvg-convert
-On Linux Mint (I have latest 21.1 Vera) and similar distros, do:   
+The script requires: xdotool zenity yad convert montage rsvg-convert   
+On Linux Mint (I have latest 21.1 Vera) and similar distros, you can verify that you have all the dependencies with:
 `sudo apt install zenity yad graphicsmagick-imagemagick-compat librsvg2-bin`
 
-To install, clone the repo and then simply copy the script and its launcher:
+To install, open a terminal and do:
 ```
-git clone git@github.com:dentex/apply_custom_icon.git
-cd apply_custom_icon
-cp scripts/apply_custom_icon.* ~/.local/share/nemo/actions/
+cd ~/.local/share/nemo/actions/
+curl -OO https://raw.githubusercontent.com/dentex/apply_custom_icon/main/scripts/apply_custom_icon.{nemo_action,sh}
 ```
 
 ## OPERATIONS
