@@ -1,7 +1,7 @@
 Apply Custom Icon
 ==============
 
-Nemo action to apply a custom composed icon based on images contained in the selected folder
+Nemo action to apply a **custom composed icon** based on images contained in the selected folder(s).
 
 <p align="center">
   <img src="res/menu.png">
@@ -21,7 +21,7 @@ curl -OO https://raw.githubusercontent.com/dentex/apply_custom_icon/main/scripts
 ```
 
 ## OPERATIONS
-4+2 types of operation are available:
+7 types of operation are available, that can be divided into 3 categories:
 
 ### Multiple images:
 - *Montage (1st four images)*   
@@ -56,3 +56,8 @@ curl -OO https://raw.githubusercontent.com/dentex/apply_custom_icon/main/scripts
 | <img src="res/ICON_r1.png">| ==> | <img src="res/ICON_r2.png"> |
 |----------------------------|-----|-----------------------------|
  
+ ## TO-DO
+ - Better refresh procedure
+ - Custom background color 
+ - Transparent background (now WIP)
+ - ...
